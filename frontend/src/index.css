@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+
+body {
+ margin: 0%;
+ background-image: url(../public/bgimage.avif);
+ background-size: cover;
+ min-height: 100vh;
+ background-position: center;
+}
+
+
+ 
+
