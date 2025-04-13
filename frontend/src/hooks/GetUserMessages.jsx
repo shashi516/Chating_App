@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { setMessages } from '../redux/messageSlice';
-import { BASE_URL } from '..';
+import { BASE_URL } from '../main';
 
 
 const useGetMessages = () => {
