@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import { useDispatch } from 'react-redux';
 import {Link, useNavigate} from 'react-router-dom';
 import { setAuthUser } from '../redux/userSlice';
-import { BASE_URL } from '..';
+import { BASE_URL } from '../main';
 
 function Login() {
 
