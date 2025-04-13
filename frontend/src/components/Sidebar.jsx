@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux';
 import { setAuthUser, setOtherUsers } from '../redux/userSlice';
-import { BASE_URL } from '..';
+import { BASE_URL } from '../main';
 
 function Sidebar() {
 
