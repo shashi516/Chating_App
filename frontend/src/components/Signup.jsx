@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import toast from 'react-hot-toast';
-import { BASE_URL } from '..';
+import { BASE_URL } from '../main';
 
 function Signup() {
 
