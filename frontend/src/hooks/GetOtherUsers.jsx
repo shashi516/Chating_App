@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect } from 'react'
 import {useDispatch} from 'react-redux'
 import {setOtherUsers} from '../redux/userSlice'
-import { BASE_URL } from '..';
+import { BASE_URL } from '../main';
 
 const GetOtherUsers=() =>{
 
