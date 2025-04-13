@@ -4,6 +4,7 @@ import toast from 'react-hot-toast';
 import { useDispatch } from 'react-redux';
 import {Link, useNavigate} from 'react-router-dom';
 import { setAuthUser } from '../redux/userSlice';
+import { BASE_URL } from '..';
 
 function Login() {
 
@@ -19,7 +20,7 @@ function Login() {
   const OnsubmitHandler = async (e) => {
     e.preventDefault();
    try {
-    await axios.post(`http://localhost:5001/api/v1/user/login`,user,
+    await axios.post(`${BASE_URL}/api/v1/user/login`,user,
      { headers:{
         "Content-Type":"application/json"
       },
