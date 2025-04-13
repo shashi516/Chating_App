@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import io from 'socket.io-client'
 import { setOnlineUsers } from './redux/userSlice';
 import { setSocket } from './redux/soketSlice';
-import { BASE_URL } from '..';
 
 
 const router=createBrowserRouter([
